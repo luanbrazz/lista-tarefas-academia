@@ -1,8 +1,6 @@
 <div class="container pt-4">
-  <h4>Lista de categorias</h4>
-  <div>
-    <a routerLink="/addCategoria">Adicionar categoria</a>
-  </div>
+  <h4>Lista de categoria</h4>
+  <a routerLink="adicionar">Adicionar categoria</a>
   <div class="row">
 
     <app-card-categoria class="col" *ngFor="let categoria of categorias | async" [categoria]="categoria"

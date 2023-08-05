@@ -14,6 +14,9 @@ import { EditarFormTarefaComponent } from './editar-form-tarefa/editar-form-tare
 import { DatePipe } from '@angular/common';
 import { FormCategoriaComponent } from './form-categoria/form-categoria.component';
 import { ListaCategoriasComponent } from './lista-categorias/lista-categorias.component';
+import { AdicionarCategoriaComponent } from './adicionar-categoria/adicionar-categoria.component';
+import { ListarCategoriaComponent } from './listar-categoria/listar-categoria.component';
+import { CardCategoriaComponent } from './card-categoria/card-categoria.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { ListaCategoriasComponent } from './lista-categorias/lista-categorias.co
     EditarTarefaComponent,
     EditarFormTarefaComponent,
     FormCategoriaComponent,
-    ListaCategoriasComponent
+    ListaCategoriasComponent,
+    AdicionarCategoriaComponent,
+    ListarCategoriaComponent,
+    CardCategoriaComponent
   ],
   imports: [
     BrowserModule,

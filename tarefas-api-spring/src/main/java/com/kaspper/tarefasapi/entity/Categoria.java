@@ -13,15 +13,15 @@ public class Categoria {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	Integer id;
+	UUID id;
 	
 	String nome;
 
-	public Integer getId() {
+	public UUID getId() {
 		return id;
 	}
 
-	public void setId(Integer id) {
+	public void setId(UUID id) {
 		this.id = id;
 	}
 
