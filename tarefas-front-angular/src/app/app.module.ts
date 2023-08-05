@@ -12,6 +12,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { EditarTarefaComponent } from './editar-tarefa/editar-tarefa.component';
 import { EditarFormTarefaComponent } from './editar-form-tarefa/editar-form-tarefa.component';
 import { DatePipe } from '@angular/common';
+import { FormCategoriaComponent } from './form-categoria/form-categoria.component';
+import { ListaCategoriasComponent } from './lista-categorias/lista-categorias.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { DatePipe } from '@angular/common';
     AdicionarTarefaComponent,
     FormTarefaComponent,
     EditarTarefaComponent,
-    EditarFormTarefaComponent
+    EditarFormTarefaComponent,
+    FormCategoriaComponent,
+    ListaCategoriasComponent
   ],
   imports: [
     BrowserModule,
